@@ -87,4 +87,12 @@ func parsePlaylistUrl(url string) (filename string, err error) {
 	}
 	filename = fmt.Sprintf("CB_%s_%s-%s-%s_%s-%s", username, dateSplit[0], dateSplit[1], dateSplit[2], dateSplit[3], dateSplit[4])
 	return
+}{
+	"urls": [
+		["https://es.recu.me/modelkelly13/video/108703265/play","00:00","0:10:00","4:17:00"]
+	],
+	"header": {
+		"Cookie": "",
+		"User-Agent": ""
+	}
 }
